@@ -26,7 +26,7 @@ Github is very rude! I do not mean the people but github.com.  Picture the scene
 
 Perhaps this works fine in some areas but I know there is an emotional attachment when writing learning resources.
 
-So please, do please translate these message from robot into Human.
+So please, do please translate these messages from robot into Human.
 
 ### Files in Repository
 The website's pages are generated from `.md` files in the main directory. The name of each `.md` file has a corresponding image in `/teaser/` of the same name.
