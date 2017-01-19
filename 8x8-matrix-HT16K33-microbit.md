@@ -27,12 +27,7 @@ simple-description: LED Matrix (I2C)
 
 acknowledgements: All images by Adafruit (CC-BY).
 
-categories: I2C
-
-tags:
-    - I2C
-    - cat
-
+date: 2016-12-23T10:20:00Z
 ---
 
 An 8x8 LED Matrix is a component where 64 LEDs are arranged in a grid.

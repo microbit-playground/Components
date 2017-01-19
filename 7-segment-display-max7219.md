@@ -25,6 +25,7 @@ cats: external
 # Name of Component for index page
 simple-description: 7-Segment Display (SPI)
 
+date: 2016-12-23T10:20:00Z
 ---
 
 ![microbit edge connector](images/7-segment-display-max7219.jpg){:.ui .image .small .floated .right}
