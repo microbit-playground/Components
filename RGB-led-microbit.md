@@ -27,10 +27,11 @@ simple-description: RGB LEDs
 
 acknowledgements: RGB LED teaser image by Oomlout (CC-BY-2.0). RGB spectrum image public domain.
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
-An RGB LED is essentially a red, green and blue LED combined into one package. 
+An RGB LED is essentially a red, green and blue LED combined into one package.
 
 ![RGB LED](images/RGB-LED-microbit-diagram.jpg){:.ui .image}
 
@@ -41,7 +42,7 @@ Each of the colours---red, green and blue---can be made my supplying current to 
 ![RGB LED](images/RGB-LED-microbit-rgb.png){:.ui .centered .image}
 
 
-Any coloured light can be made by varying how bright the red, blue and green LEDs are lit. This can be done with `pin0.write_analog(n)` where *n* is a value between 0 (off) and 1023 (on full). 
+Any coloured light can be made by varying how bright the red, blue and green LEDs are lit. This can be done with `pin0.write_analog(n)` where *n* is a value between 0 (off) and 1023 (on full).
 
 
 {:.ui .dividing .header}
@@ -72,7 +73,7 @@ blue = pin1
 green = pin2
 
 while True:
-	
+
     # Make Yellow
     red.write_digital(1)
     green.write_digital(1)

@@ -27,10 +27,11 @@ simple-description: LEDs
 
 acknowledgements: Teaser image by Adafruit (CC-BY).
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
-It's possible to use the external pins on the micro:bit to control external LEDs. 
+It's possible to use the external pins on the micro:bit to control external LEDs.
 
 {:.ui .dividing .header}
 ### Electronics

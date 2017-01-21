@@ -27,7 +27,8 @@ simple-description: Servo
 
 acknowledgements: Servo teaser & diagram by [Upgrade Industries](https://www.upgradeindustries.com/licensing/)
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
 The __Tower Pro SG90__ is a small, 9 gram servo that can run directly from the microbit power supply. This is a 180&deg; servo meaning it can turn from 0&deg; to 180&deg;. It has many applications: open a flap to dispense treats for to a dog, create a robotic walker, or to drive window wipers on a car.
@@ -68,7 +69,7 @@ Servos are difficult to control in Python on the microbit. I've tried to make it
 </div>
 <div class="ui bottom attached tab segment active" data-tab="first" markdown="1">
 
-A module must be installed to tell Python how to use the servo. 
+A module must be installed to tell Python how to use the servo.
 
 #### Steps
 
@@ -95,7 +96,7 @@ while True:
 
 {% endhighlight %}
 
-The angle of the servo is controlled by `Servo(pin0).write_angle(30)`. If you want to control a servo attached to pin1 as well, it would be: 
+The angle of the servo is controlled by `Servo(pin0).write_angle(30)`. If you want to control a servo attached to pin1 as well, it would be:
 
 {% highlight python %}
 Servo(pin1).write_angle(30)
@@ -122,4 +123,3 @@ sv2.write_angle(0)
 
 ### Experiment
 * Play with the [sweep example](https://github.com/microbit-playground/microbit-servo-class/blob/master/examples/twist-example.py) to rotate the servo through 180&deg;
-

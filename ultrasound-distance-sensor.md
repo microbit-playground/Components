@@ -27,7 +27,8 @@ simple-description: Ultrasound
 
 acknowledgements: Teaser image by Sparkfun (CC-BY). Sonar diagram by Georg Wiora CC-BY-SA-2.5
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
 Sonar uses sound to detect objects. It can be used to measure distance to an object.

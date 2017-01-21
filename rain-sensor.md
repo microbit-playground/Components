@@ -25,10 +25,11 @@ cats: external
 # Name of Component for index page
 simple-description: Rain Sensor
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
-A rain sensor will detect droplets of water when they fall on the sensor board. 
+A rain sensor will detect droplets of water when they fall on the sensor board.
 
 {:.ui .dividing .header}
 ### Component
@@ -40,16 +41,16 @@ The sensor board has two traces on it and the microbit can measure the resistanc
 #### Which Sensor?
 A search for 'FC-37' or 'YL-83' or 'Arduino Raindrop Sensor' will yield the sensor that's required.
 
-The sensor usually comes with two modules. One part detects the raindrops, the other takes a signal from the sensor and outputs it as an analog or digital signal. It's possible to use the big raindrop detector module on its own; see the _Soil Moisutre Sensor_ entry on how to do it. 
+The sensor usually comes with two modules. One part detects the raindrops, the other takes a signal from the sensor and outputs it as an analog or digital signal. It's possible to use the big raindrop detector module on its own; see the _Soil Moisutre Sensor_ entry on how to do it.
 
 #### Setting Sensitivity
 First we need to provide power to the sensor to set its sensitivity:
 
 * Connect the two modules together
-* Connect the `GND` pin on the small module to the microbit's `GND` pin. 
+* Connect the `GND` pin on the small module to the microbit's `GND` pin.
 * Connect the module's `VCC` or `+` pin to the microbit's `3v pin`.
 
-An LED will light on the module. 
+An LED will light on the module.
 
 There is a small potentiometer on the module. This sets the level of sensitivity required for the sensor to output a digital signal to say it has detected water.
 
@@ -94,10 +95,10 @@ from microbit import *
 
 
 while True:
-    
+
     pin0.write_digital(1)  # Turn on the sensor
     sleep(500)  # Wait for the sensor to settle
-    
+
     if pin1.read_digital():
        display.show(Image.SAD) # it's raining
     else:

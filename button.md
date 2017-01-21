@@ -27,7 +27,8 @@ simple-description: Push Button
 
 acknowledgements: SMD push button switch by Sparkfun (CC-BY-2.0)
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
 A small push button can be used to provide an external input into your circuits.
@@ -39,7 +40,7 @@ This is a small, SMD-mount tactile switch identical to the ones on your microbit
 {:.ui .dividing .header}
 ### Electronics
 
-One of the button's pins is connected to 3V. The corresponding pin to `pin0` of the microbit. When the button is pressed, `pin0` reads `True` or `1`. 
+One of the button's pins is connected to 3V. The corresponding pin to `pin0` of the microbit. When the button is pressed, `pin0` reads `True` or `1`.
 
 ![Push Button Diagram and Photograph](images/button-circuit-no-pull-down.png){:.ui .image .centered}
 
@@ -81,5 +82,3 @@ while True:
   <p>The microbit has internal pull-up and pull-down resistors. When a digital input is read by the microbit, the pull-down resistors are turned on so there is no need for an external one. </p>
   <p>This behaviour can be modified in PXT but not Python. </p>
 </div>
-
-

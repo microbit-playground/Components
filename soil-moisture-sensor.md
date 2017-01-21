@@ -27,7 +27,8 @@ simple-description: "Soil Moisture"
 
 acknowledgements: Teaser image by Adafruit (CC-BY). Sensor image by spark fun (CC-BY). Dupont connector by Adafruit (CC-BY).
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
 A soil moisture sensor module is designed to measure the amount of water in the soil by reading its resistance. It passes an electric current through the two prongs and measures the resistance of the soil.

@@ -27,7 +27,8 @@ simple-description: Neopixels
 
 acknowledgements: Video & teaser image by Adafruit (CC-BY-2.0)
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 {::options parse_block_html="true" /}
 <video autoplay="" loop="" class="ui image medium right floated">
@@ -35,7 +36,7 @@ date: 2016-12-23T10:20:00Z
     Your browser does not support the video tag.
     </video>
 
-Neopixels are RGB LEDs sold by an electronics company called Adafruit. The modules come in different shapes and can contain any number of RGB LEDs. Each LED can be controlled (or addressed) individually. The microbit can drive around 8 LEDs; to control modules with more LEDs you'll need to use an external 5v power source. 
+Neopixels are RGB LEDs sold by an electronics company called Adafruit. The modules come in different shapes and can contain any number of RGB LEDs. Each LED can be controlled (or addressed) individually. The microbit can drive around 8 LEDs; to control modules with more LEDs you'll need to use an external 5v power source.
 
 You can get generic, Neopixel-style modules by searching for 'ws2812 LED' on eBay or Amazon.
 
@@ -47,7 +48,7 @@ Most neopixel modules require the user to solder on their own connections. This 
 ![My soldered neopixel](images/neopixels-soldered.png){:.ui .image}
 
 
-* Solder wires to PWR, GND and IN. 
+* Solder wires to PWR, GND and IN.
 * In this example the wires are colour-coded: black (for GND), red (for PWR) or yellow (for IN)
 
 {:.ui .dividing .header}
@@ -113,7 +114,7 @@ neopixels.show() # Light the LEDs
 
 #### Sequentially Light Each Pixel
 
-Light one LED in the neopixel red for 200 milliseconds then light the next one. 
+Light one LED in the neopixel red for 200 milliseconds then light the next one.
 
 {% highlight python %}
 from microbit import *

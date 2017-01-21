@@ -27,7 +27,8 @@ simple-description: Potentiometer
 
 acknowledgements: potentiometer image by budgetronics.eu (CC-SA 2.0)
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
 Potentiometers are a type of resistor. The incoming voltage is divided between the middle and the GND pin. How this is divided depends on the rotation of the knob.
@@ -115,4 +116,3 @@ Rotate the knob to fill the microbit display with lit pixels. Note the potentiom
 * Dim an external LED
 * Control the pitch of music
 * Control the speed of a scroll
-

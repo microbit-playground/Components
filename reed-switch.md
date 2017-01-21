@@ -25,10 +25,11 @@ cats: external
 # Name of Component for index page
 simple-description: Reed Switch
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
-A reed switch opens and closes in the presence of a magnet. 
+A reed switch opens and closes in the presence of a magnet.
 
 Typically they are usually open and closed when near a magnet.
 
@@ -72,7 +73,7 @@ while True:
         # reed swich open
         # magnet not present
         display.scroll('Buglar')
-        
+
     sleep(20)
 
 {% endhighlight %}
@@ -83,5 +84,5 @@ while True:
 <img src="{{ baseurl }}/images/components/single-led-pxt.png" class="ui image">
 </div>
 
-### Notes 
+### Notes
 * The microbit can be used as a reed switch with the onboard magnetometer. `compass.get_field_strength()` returns the magnetic field in nano teslas.

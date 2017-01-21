@@ -25,7 +25,8 @@ cats: external
 # Name of Component for index page
 simple-description: "PIR Sensor"
 
-date: 2016-12-23T10:20:00Z
+date:         2016-12-23T10:20:00Z
+date-updated: 2016-12-23T10:20:00Z
 ---
 
 The PIR sensor module will detect movement and report it to the microbit as a digital signal. There are many PIR sensor modules on the market but the most common one is based on the DYP-ME003 PIR sensor module by Open Impulse. This module runs at 5v so requires _some_ hacking to work with the microbit.
@@ -52,7 +53,7 @@ Confirmed PIR sensor modules with two sets of header pins:
 
 #### Using a Sensor with 2 x Header Pins
 
-Attach the microbit's `3v pin` to the header pin on the PIR sensor labelled `H`. 
+Attach the microbit's `3v pin` to the header pin on the PIR sensor labelled `H`.
 
 Attaching it to the H pin bypasses the voltage regulator on the sensor and enables it to run on 3.3v. The jumper attached to these pins can be discarded.
 
@@ -62,12 +63,12 @@ There is more about this process and its discovery on [tech gurka](http://techgu
 
 There are two potentiometers labelled TIME (or T) and SENSITIVITY (or S) on the sensor module. Adjusting SENSITIVITY  changes the detection range from 3m to up to 7m. As the range increases, the more sensitive to movement it becomes.
 
-TIME represents the duration of the output signal. If it detects movement, the TIME parameter controls how long the sensor will output HIGH. This can be changed from 5s through to 300s. 
+TIME represents the duration of the output signal. If it detects movement, the TIME parameter controls how long the sensor will output HIGH. This can be changed from 5s through to 300s.
 
 {:.ui .dividing .header}
 ### Electronics
 
-Hook up the sensor to the microbit as shown: 
+Hook up the sensor to the microbit as shown:
 
 {:.ui .celled .striped .table}
 | PIR Sensor Pin | Microbit Pin |
@@ -93,7 +94,7 @@ from microbit import *
 
 
 while True:
-    
+
     if pin0.read_digital:
         display.scroll("Movement")
     sleep(1000)
@@ -101,5 +102,5 @@ while True:
 
 </div>
 
-### Experiment 
+### Experiment
 * Trigger an alarm!
