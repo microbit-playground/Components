@@ -92,7 +92,7 @@ from microbit import *
 
 while True:
 	# set_pixel brightness if between 0 - 9
-	brightness = (pin0.read_analog() / 1023) * 9
+	brightness = int((pin0.read_analog() / 1023) * 9)
 
 	display.set_pixel(2, 2, brightness)
 	sleep(10)
